@@ -7,11 +7,32 @@ font-family: 'PT Sans', sans-serif;
     overflow-x: hidden; 
 }
 
+/* unvisited link */
+a:link {
+  color: #f2f2f2;
+}
+
+/* visited link */
+a:visited {
+  color: #f2f2f2;
+}
+
+/* mouse over link */
+a:hover {
+  color: rgb(199, 156, 78);
+}
+
+/* selected link */
+a:active {
+  color: rgb(199, 156, 78);
+}
 
 a[href^="tel"]{
     color:inherit;
     text-decoration:none;
 }
+
+
 /* nav bar */
 
 
